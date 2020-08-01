@@ -29,9 +29,9 @@ if [[ -z $localization_file ]]; then
 fi
 
 echo "Generating pyaoaddons/item_category_mapping.py..."
-echo "mapping =" > pyaoaddons/item_category_mapping.py
+echo "mapping =\\" > pyaoaddons/item_category_mapping.py
 python scripts/item_category_map.py $items_file >> pyaoaddons/item_category_mapping.py
 
 echo "Generating pyaoaddons/localization_mapping.py..."
-echo "mapping =" > pyaoaddons/localization_mapping.py
+echo "mapping =\\" > pyaoaddons/localization_mapping.py
 python scripts/localization.py $localization_file >> pyaoaddons/localization_mapping.py

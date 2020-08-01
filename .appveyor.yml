@@ -32,6 +32,7 @@ install:
   - curl -o "C:/dl/wpd.zip" "https://www.winpcap.org/install/bin/WpdPack_4_1_2.zip"
   - ps: Add-Type -AssemblyName system.io.compression.filesystem
   - ps: "[io.compression.zipfile]::ExtractToDirectory(\"C:/dl/wpd.zip\", \"C:/dl/wpdpack\")"
+  - ps: mkdir lib
   - ps: cp ${env:WPD_LIB_PATH} "lib"
   - SET LIB="lib";%lib%
   - appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.exe

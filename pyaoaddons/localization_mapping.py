@@ -1,4 +1,4 @@
-mapping =
+mapping =\
 {
     "ARTEFACT_WEAPON_DESC": "Piece of an ancient and powerful weapon. Can be used to craft {0} of the same tier, or salvaged into {1}s.",
     "DECORATIVE_EQUIPMENT_DESC": "Decorative Equipment Item",
