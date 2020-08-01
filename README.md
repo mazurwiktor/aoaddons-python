@@ -1,6 +1,8 @@
 pyaoaddons
 ==========
 
+<a href="https://github.com/mazurwiktor/albion-online-addons"> **Powered by Albion Online Addons** <img src="https://raw.githubusercontent.com/mazurwiktor/albion-online-addons/master/assets/albion-online-addons.png" width="100"></a>
+
 # API reference
 
 ## subscribe
