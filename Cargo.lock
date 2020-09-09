@@ -11,9 +11,9 @@ dependencies = [
 
 [[package]]
 name = "aoaddons"
-version = "0.1.1"
+version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c5de3485cfc8960693a1b51f47c4030e1c69e9786ac21f082939ef70460caec"
+checksum = "b35dd0993105e72d349d158755897b9d58bc5072ac1b3068ef2111f3929e67f2"
 dependencies = [
  "bytes",
  "chrono 0.4.13",
