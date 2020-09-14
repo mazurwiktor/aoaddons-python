@@ -73,6 +73,10 @@ impl ToPyObjectWrapper for Event {
             Event::UpdateParty(e) => {
                 event.set_item(py, "name", "UpdateParty".into_py_object(py)).unwrap_or(());
                 event.set_item(py, "value", e.into_py_object(py)).unwrap_or(());
+            },
+            Event::ChatSay(e) => {
+                event.set_item(py, "name", "ChatSay".into_py_object(py)).unwrap_or(());
+                event.set_item(py, "value", e.into_py_object(py)).unwrap_or(());
             }
         }
 
