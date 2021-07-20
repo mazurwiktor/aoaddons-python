@@ -3,6 +3,7 @@ from os import path
 import sys
 
 from setuptools import setup
+from typing import List
 
 try:
     from setuptools_rust import RustExtension, Binding
@@ -16,11 +17,9 @@ except ImportError:
     else:
         from setuptools_rust import RustExtension, Binding
 
-
-
 this_directory = path.abspath(path.dirname(__file__))
 setup_requires = ["setuptools-rust>=0.10.1", "wheel"]
-install_requires = []
+install_requires : List[str] = []
 
 with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()

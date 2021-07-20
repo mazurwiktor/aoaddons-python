@@ -5,6 +5,7 @@
 damage-meter.log
 *.so
 .vscode
+lib
 
 # Python
 .tox
@@ -17,5 +18,7 @@ env
 *.egg
 **/.eggs
 __pycache__
+.mypy_cache
+**/wheelhouse
 albion-online-stats.cfg
 backend.log
