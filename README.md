@@ -43,16 +43,6 @@ E.g
 }
 ```
 
-## Available game events
+## Available game events are visible [here](https://docs.rs/aoaddons/0.1.6/aoaddons/photon_messages/messages/index.html)
 
-- MainPlayerAppeared
-- PlayerAppeared
-- PlayerAppeared
-- DamageDone
-- HealthReceived
-- ZoneChange
-- EnterCombat
-- LeaveCombat
-- UpdateFame
-- UpdateItems
-- UpdateParty
+Latest messages decoding recipe can be found [here](https://github.com/mazurwiktor/albion-online-addons/blob/master/assets/messages.json)
