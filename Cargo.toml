@@ -10,7 +10,7 @@ name = "libpyaoaddons"
 crate-type = ["cdylib"]
 
 [dependencies.cpython]
-version = "0.3"
+version = "0.7"
 
 [dependencies]
 aoaddons = "0.2.0"
